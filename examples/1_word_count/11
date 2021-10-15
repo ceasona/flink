@@ -1,0 +1,12 @@
+run -m localhost:8081 -pyfs /home/flink_test/examples/1_word_count/cdn_connector_ddl.py -py /home/flink_test/examples/1_word_count/cdn_demo.py
+/root/flink-1.13.2
+
+/usr/lib/jvm/jdk8u302-b08/bin/java
+-Dlog.file=/usr/local/lib/python3.7/site-packages/pyflink/log/flink-root-python-77d35051b9d8.log
+-Dlog4j.configuration=/usr/local/lib/python3.7/site-packages/pyflink/conf/log4j-cli.properties
+-Dlog4j.configurationFile=/usr/local/lib/python3.7/site-packages/pyflink/conf/log4j-cli.properties
+-Dlogback.configurationFile=/usr/local/lib/python3.7/site-packages/pyflink/conf/logback.xml
+-cp /usr/local/lib/python3.7/site-packages/pyflink/lib/flink-sql-connector-kafka_2.11-1.10.0.jar:/usr/local/lib/python3.7/site-packages/pyflink/lib/flink-table-blink_2.11-1.13.2.jar:/usr/local/lib/python3.7/site-packages/pyflink/lib/flink-table_2.11-1.13.2.jar:/usr/local/lib/python3.7/site-packages/pyflink/lib/mysql-connector-java-8.0.19.jar:/usr/local/lib/python3.7/site-packages/pyflink/lib/flink-json-1.13.2.jar:/usr/local/lib/python3.7/site-packages/pyflink/lib/flink-jdbc_2.11-1.10.0.jar:/usr/local/lib/python3.7/site-packages/pyflink/lib/flink-csv-1.13.2.jar:/usr/local/lib/python3.7/site-packages/pyflink/lib/flink-dist_2.11-1.13.2.jar:/usr/local/lib/python3.7/site-packages/pyflink/opt/flink-python_2.11-1.13.2.jar
+org.apache.flink.client.python.PythonGatewayServer
+
+{"rideId":600,"taxiId":2013003189,"isStart":true,"lon":-73.99606,"lat":40.725132,"psgCnt":2,"rideTime":"2013-01-01T00:11:47Z"}
